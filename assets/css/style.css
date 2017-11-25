@@ -1,0 +1,86 @@
+body {
+	font-family: 'News Cycle', sans-serif;
+	color: yellow;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.backgroundImage {
+	background-image: url('https://i.pinimg.com/236x/08/96/36/089636c2290f404bce74399739990b6d--star-wars-backgrounds-iphone-backgrounds.jpg');
+
+}
+
+.character {
+	position: relative;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.gameCharacter {
+	position: relative;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.enemies {
+	position: relative;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.fight {
+	position: relative;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.characterImage {
+	height: 100px;
+	width:  140px;
+}
+
+.topCaption {
+	font-size: .75em;
+}
+
+.caption {
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #ffffff;
+    background: black;
+	text-align:center;
+	font-size: .75em;
+}
+
+#availableCharacters {
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+
+#enemiesAvailable {
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+#fightText {
+	background-color: black;
+	font-size: .5em;
+}
+#fightTextLn2 {
+	background-color: black;
+	font-size: .5em;
+}
+.btn {
+	color: black;
+}
+
+h1 { 
+	text-align: right;
+	margin-right: 2em;
+ }
